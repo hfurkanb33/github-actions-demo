@@ -1,1 +1,1 @@
-# github-actions-demo
+#This repository contains the codes I tried while reading the Practical MLOPS book.
