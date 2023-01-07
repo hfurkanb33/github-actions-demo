@@ -1,4 +1,4 @@
-name: Azure Python 3.7.15
+name: Github Python 3.7.15
 on: [push]
 jobs:
   build:
@@ -15,6 +15,9 @@ jobs:
     - name: Lint
       run: |
         make lint
+    - name: Format
+      run: |
+        make format
     - name: Test
       run: |
         make test
